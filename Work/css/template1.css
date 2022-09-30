@@ -1,0 +1,61 @@
+
+        
+        
+        /* Header/Blog Title */
+        .header {
+          
+          text-align: center;
+          background: #1abc9c;
+          color:white;
+        }
+        
+        /* Increase the font size of the heading */
+        .header h1 {
+          font-size: 40px;
+        }
+        
+        
+        
+        
+        
+        /* Create two unequal columns that floats next to each other */
+        /* Left column */
+        .main {   
+           -ms-flex: 70%; /* IE10 */
+           flex:70%;
+           padding: 20px;
+        }
+        
+        /* Right column */
+        .side {
+          -ms-flex: 30%; /* IE10 */
+          flex: 30%;   
+          padding: 20px;
+          padding-left: 20px;
+        }
+        
+        /* Fake image */
+        .fakeimg {
+          background-color: #aaa;
+          width: 100%;
+          padding: 20px;
+        }
+        
+        
+        .row {  
+        display: -ms-flexbox; /* IE10 */
+          display: flex;
+          -ms-flex-wrap: wrap; /* IE10 */
+          flex-wrap: wrap;
+          }
+        
+       
+        
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+        @media (max-width: 600px) {
+          .row {   
+            flex-direction: column;
+          }
+        }
+        
+        

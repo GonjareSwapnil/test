@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="css/common.css"> -->
+    <title>Document</title>
+    <style>
+      .topnav{
+        background-color: thistle;
+
+      }
+      body{
+        margin: 0;
+      }
+      .topnav a{
+        text-decoration: none;
+        display: inline-block; 
+        padding: 16px 14px;
+        color: rgb(187, 111, 231);
+      }
+      #lg{
+          float: right;
+      }
+      #hk{
+          text-align:center;
+          font-style: italic;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          background-size: cover;
+          background-image: url(images/bg.jpg);
+          color: rgb(84, 173, 136);
+          padding: 100px 0;
+          display: grid;
+         
+        }
+        .row{
+          display: flex;
+          background-color: rgb(167, 137, 179);
+         
+          
+        }
+        .side{
+          width: 30%;
+          padding: 20px;
+          background-color: #e8d3ed;
+        }
+        .main{
+          width: 70%;
+          padding: 20px;
+        }
+        .lk{
+          width: 100%;
+        }
+        
+      @media(max-width:400px){
+        .topnav a{
+          display: block;
+          text-align: center;
+        }
+        #lg{
+          float: none;
+        }
+        #hk{
+          text-align:center;
+        }
+        .row{
+          display: block;
+        }
+        .side, .main{
+          width: 100%;
+          box-sizing: border-box;
+        }
+        
+      }
+
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a href="javascript:void(0)">Menu1</a>
+        <a href="javascript:void(0)">Menu2</a>
+        <a href="javascript:void(0)">Menu3</a>
+        <a href="javascript:void(0)" id="lg">Log Out</a>
+      </div>
+      <div id="hk"> 
+        <h1> Swapnil Webside .</h1>
+        <p> This is my webside.</p>
+      </div>
+      <div class="row">
+        <div class="side">
+          <h2>About Me</h2>
+          <h5>Photo of me:</h5>
+          <img src="images/bg.jpg" class="lk" alt="image"/>
+          <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+          <h3>More Text</h3>
+          <p>Some lorem ipsum text.</p>
+          <img src="images/bg.jpg" class="lk" alt="image"/>
+          <img src="images/bg.jpg" class="lk"alt="image"/>
+          <img src="images/bg.jpg" class="lk"alt="image"/>
+          <h3>Contact Me</h3>
+          <p>Some text.</p>
+        </div>
+        <div class="main">
+          <h2>TITLE HEADING</h2>
+          <h5>Title description, Dec 7, 2017</h5>
+          <div class="fakeimg">
+            <img src="images/bg.jpg" class="lk"  alt="image"/>
+          </div>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+          <br>
+          <h2>TITLE HEADING</h2>
+          <h5>Title description, Sep 2, 2017</h5>
+          <div class="fakeimg">
+            <img src="images/bg.jpg" class="lk"  alt="image"/>
+          </div>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+      </div>  
+      <!-- <div class="footer">
+        <h2>Footer</h2>
+      </div> -->
+         
+
+</body>
+</html>

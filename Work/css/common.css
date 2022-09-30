@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    margin: 0;
+    background: #f1f1f1;
+  }
+#aa{
+    text-align: center;
+    color:blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: lighter;
+    display: grid;
+   
+}
+  
+#nv{
+    background-color: aquamarine;
+}
+.side{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
+    background-color: rgb(231, 238, 189);
+   
+}
+.main{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
+    background-color: rgb(231, 238, 189);
+
+}
+.topnav{
+    background-color: #0b8d8d;
+}
+.footer{
+    background-color: rgb(0 140 141);
+    font-style: italic;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Style the topnav links */
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    
+  } 
+
+   /* Footer */
+   .footer {
+    padding: 20px;
+    text-align: center;
+   }
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    color: #e3dada;
+  }
+
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width:100%;
+    }
+  }
+
